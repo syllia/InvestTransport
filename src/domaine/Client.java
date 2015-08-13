@@ -9,7 +9,7 @@ package domaine;
  *
  * @author Syllia
  */
-kkkkkhh
+
 public class Client {
     
 }

@@ -5,9 +5,11 @@
  */
 package investtransport;
 
+import javax.swing.JFrame;
+
 /**
  *
- * @author Syllia
+ * @author Syllia && Julio 
  */
 public class InvestTransport {
 
@@ -16,6 +18,9 @@ public class InvestTransport {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        InterfaceUtilisateur.PrincipalUI mainWindow = new InterfaceUtilisateur.PrincipalUI();
+        mainWindow.setExtendedState(mainWindow.getExtendedState()| JFrame.MAXIMIZED_BOTH);
+        mainWindow.setVisible(true);
     }
     
 }
